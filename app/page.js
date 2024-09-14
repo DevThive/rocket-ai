@@ -16,7 +16,7 @@ export default function Home() {
     const userMessage = { message: input };
     
     try {
-      const response = await axios.post('http://43.203.75.81:4000/api/message', userMessage, {
+      const response = await axios.post('/api/message', userMessage, {
         headers: { 'Content-Type': 'application/json' },
       });
       const data = response.data;
