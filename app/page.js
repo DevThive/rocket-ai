@@ -45,7 +45,7 @@ export default function Home() {
         <h1 className="text-xl font-bold">{t('chat_title')}</h1>
         <div>
           <button onClick={() => i18n.changeLanguage('ko')} className="btn btn-outline-prime btn-sm">한국어</button>
-          <button onClick={() => i18n.changeLanguage('en')} className="btn btn-outline btn-sm ml-2">English</button>
+          <button onClick={() => i18n.changeLanguage('en')} className="btn btn-outline-prime btn-sm ml-2">English</button>
         </div>
       </header>
       <main className="flex-1 p-4 overflow-auto">
